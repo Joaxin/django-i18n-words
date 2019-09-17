@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-20 14:14+0800\n"
+"PO-Revision-Date: 2019-07-20 10:50+0806\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Translated-Using: django-rosetta 0.9.2\n"
+
+#: .\amor\templates\amor\index.html:3 .\amor\templates\amor\index.html:37
+msgid "Hello World!"
+msgstr "Bonjour le monde!"
+
+#: .\amor\urls.py:6
+msgid "amor/"
+msgstr "amor /"
+
+#: .\words\settings.py:110
+msgid "English"
+msgstr "Anglais"
+
+#: .\words\settings.py:111
+msgid "Spanish"
+msgstr "Espanol"
+
+#: .\words\settings.py:112
+msgid "Portugal"
+msgstr "le Portugal"
+
+#: .\words\settings.py:113
+msgid "French"
+msgstr "français"
+
+#: .\words\settings.py:114
+msgid "German"
+msgstr "allemand"
+
+#: .\words\settings.py:115
+msgid "Italian"
+msgstr "italien"
+
+#: .\words\settings.py:116
+msgid "Japanese"
+msgstr "Japonais"
+
+#: .\words\settings.py:117
+msgid "Korean"
+msgstr "coréen"
+
+#: .\words\settings.py:118
+msgid "Vietnamese"
+msgstr "vietnamien"
+
+#: .\words\settings.py:119
+msgid "Russian"
+msgstr "russe"
+
+#: .\words\settings.py:120
+msgid "Turkey"
+msgstr "dinde"
+
+#: .\words\settings.py:121
+msgid "Netherlands"
+msgstr "Pays-Bas"
+
+#: .\words\settings.py:122
+msgid "Greek"
+msgstr "grec"
+
+#: .\words\settings.py:123
+msgid "Sweden"
+msgstr "Suède"
+
+#: .\words\settings.py:124
+msgid "Norwegian"
+msgstr "norvégien"
+
+#: .\words\settings.py:125
+msgid "Finnish"
+msgstr "finlandais"

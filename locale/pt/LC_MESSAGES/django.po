@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-20 14:14+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\amor\templates\amor\index.html:3 .\amor\templates\amor\index.html:37
+msgid "Hello World!"
+msgstr "Olá Mundo!"
+
+#: .\amor\urls.py:6
+msgid "amor/"
+msgstr "amor /"
+
+#: .\words\settings.py:110
+msgid "English"
+msgstr "Inglês"
+
+#: .\words\settings.py:111
+msgid "Spanish"
+msgstr "espanhol"
+
+#: .\words\settings.py:112
+msgid "Portugal"
+msgstr "Portugal"
+
+#: .\words\settings.py:113
+msgid "French"
+msgstr "francês"
+
+#: .\words\settings.py:114
+msgid "German"
+msgstr "alemão"
+
+#: .\words\settings.py:115
+msgid "Italian"
+msgstr "italiano"
+
+#: .\words\settings.py:116
+msgid "Japanese"
+msgstr "japonês"
+
+#: .\words\settings.py:117
+msgid "Korean"
+msgstr "coreano"
+
+#: .\words\settings.py:118
+msgid "Vietnamese"
+msgstr "vietnamita"
+
+#: .\words\settings.py:119
+msgid "Russian"
+msgstr "russo"
+
+#: .\words\settings.py:120
+msgid "Turkey"
+msgstr "Peru"
+
+#: .\words\settings.py:121
+msgid "Netherlands"
+msgstr "Países Baixos"
+
+#: .\words\settings.py:122
+msgid "Greek"
+msgstr "grego"
+
+#: .\words\settings.py:123
+msgid "Sweden"
+msgstr "Suécia"
+
+#: .\words\settings.py:124
+msgid "Norwegian"
+msgstr "norueguês"
+
+#: .\words\settings.py:125
+msgid "Finnish"
+msgstr "finlandês"

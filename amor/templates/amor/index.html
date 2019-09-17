@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Hello World!" %}{% endblock %}
+{% block content %}
+{% get_current_language as LANGUAGE_CODE %}  
+{% load hreflang %}
+
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
+<header>
+        <ul class="lang">
+            {% for language in languages %}
+            <li><a class='{% if request.LANGUAGE_CODE == language.code %}active{% endif %}' href="{% translate_url language.code  %}" hreflang="{{language.code }}">{{ language.code|upper }}</a></li>
+            {% endfor %}
+        <li>
+            <ul class="langdropdown">
+
+                    {% for language in languages %}
+                    {% if language.code == LANGUAGE_CODE %}  
+                    <li><a href="{% translate_url LANGUAGE_CODE  %}" hreflang="{{LANGUAGE_CODE }}"><span class="flag-icon flag-icon-{{LANGUAGE_CODE }}"></span>&nbsp;{{ language.name_local |capfirst }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% for language in languages %}
+                        {% if language.code != LANGUAGE_CODE %}  
+                        <li><a href="{% translate_url language.code %}" hreflang="{{language.code}}"><span class="flag-icon flag-icon-{{language.code}}"></span>&nbsp;{{ language.name_local |capfirst }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+        
+        
+                </ul>
+        </li>
+        
+        </ul>
+
+</header>
+<div class="container">
+    <h1 id = "title">{% trans "Hello World!" %}</h1>
+</div>
+
+<footer>
+
+</footer>
+{% endblock %}
+
+{% block content_js %}
+<script>
+let pathname = window.location.pathname; 
+let url      = window.location.href;   
+let origin   = window.location.origin; 
+
+let content_p = "<p>" + origin + "<span>" + pathname +"</span></p>"
+document.getElementsByTagName("footer")[0].innerHTML=content_p;
+</script>
+{% endblock %}
+
+
+
